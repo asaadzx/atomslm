@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Large binary model files
+model/*.pt
+model_hf/
+model_gguf/
+
+# Training data blocks
+dataset/*.npy
+
+# Logs
+output.log
+
+# llama.cpp sub-component (full copy, not a submodule)
+llm++/
