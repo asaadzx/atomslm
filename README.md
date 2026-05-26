@@ -53,16 +53,6 @@ python test_model.py
 
 Runs a forward pass with random inputs and attempts greedy text generation.
 
-### Convert to HuggingFace & GGUF
-
-```bash
-python convert_to_gguf.py
-```
-
-This converts the PyTorch checkpoint to:
-- `model_hf/` — HuggingFace safetensors + config + tokenizer
-- `model_gguf/` — GGUF file (ready for llama.cpp)
-
 ## Project Structure
 
 ```
