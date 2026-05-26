@@ -1,6 +1,6 @@
 # AtomSLM
 
-A from-scratch mini transformer language model (~35M parameters) with a Gemma-like architecture (SwiGLU FFN, RMSNorm, pre-norm residual blocks) trained on FineWeb-Edu. Includes conversion pipelines to HuggingFace safetensors and GGUF format for inference via llama.cpp.
+A from-scratch mini transformer language model (~134M parameters) with a Gemma-like architecture (SwiGLU FFN, RMSNorm, pre-norm residual blocks) trained on FineWeb-Edu. Includes conversion pipelines to HuggingFace safetensors and GGUF format for inference via llama.cpp.
 
 ## Architecture
 
@@ -13,7 +13,7 @@ A from-scratch mini transformer language model (~35M parameters) with a Gemma-li
 | Intermediate (SwiGLU) | 682 |
 | Vocab size | 256,000 |
 | Max sequence length | 512 |
-| Total parameters | ~34.8M |
+| Total parameters | ~134M |
 
 ## Quick Start
 
